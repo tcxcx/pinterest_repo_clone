@@ -1,0 +1,163 @@
+
+
+
+
+
+/*.estilos {
+1    z-index: 671
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+2        box-sizing: border-box;
+        display: block;
+ 3            display: block;
+  4              box-sizing: border-box;
+                width: calc(12/var(--g-ncols)*100%);
+                background-color: gainsboro; 
+                display: block;
+   5                     display: block;
+    6                        box-sizing: border-box;
+                            display: block;
+     7                               height: 80px; 
+                                    width: 100%;
+                                    flex-direction: column;
+                                    margin-bottom: 0;
+                                    margin-top: 0;
+                                    display: flex;
+      8                                  flex: 1 1 auto;
+                                        min-height: 0;
+                                        min-width: 0;
+                                        align-items: center;
+                                        box-sizing: border-box;
+                                        padding-left: 16px;
+                                        padding-right: 16px;
+                                        padding-bottom: 4px; 
+                                        padding-top: 4px
+                                        display: flex;
+                                        flex-direction: row;
+       9                                    height: 56px
+                                            align-items: center;
+                                            box-sizing: border-box;
+                                            width: calc(12/var(--g-ncols)*100%);
+                                            display: flex; 
+                                            flex-direction: row;
+;
+;
+}
+
+*/
+.clase-1 {
+    z-index: 671;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+.clase-2 {
+    box-sizing: border-box;
+    display: block;
+}
+.clase-3 {
+    display: block;
+}
+
+.clase-4 {
+    box-sizing: border-box;
+    width: calc(12/var(--g-ncols)*100%);
+    background-color: gainsboro; 
+    display: block;
+}
+
+.clase-5 {
+    display: block;
+}
+.clase-6{
+    box-sizing: border-box;
+}
+
+.clase-7{
+    height: 80px; 
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+}
+
+.clase-8{
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 4px; 
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.clase-9{
+    height: 56px;
+    align-items: center;
+    box-sizing: border-box;
+
+    /*width: calc(12/var(--g-ncols)*100%);*/
+
+    display: flex; 
+    flex-direction: row;
+}
+#box1 {
+    box-sizing: border-box;
+    display: block;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 5px;
+    border-style: none;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px;
+    /* border-style: none; */
+  }
+  img {
+    cursor: zoom-in;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  .gridCentered {
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+  img {
+    opacity: 1;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+  }
+/* UTILIZAR CLASE 'HOVER' INDICA CUAL ACCION PASA CUANDO SE PASA EL MOUSE... DARLE EFECTO DE OPACITY 0-1 AL HOVER */
+
+
+
